@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import assets from '../assets/assets'
+import assets from '../assets/assets.js'
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../Components/Navbar'
 

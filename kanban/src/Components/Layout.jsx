@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import assets from '../assets/assets'
+import assets from '../assets/assets.js'
 
 const Layout = () => {
   const navigate = useNavigate()
