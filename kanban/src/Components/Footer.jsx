@@ -43,7 +43,7 @@ const Footer = () => {
 
         {/* Instagram */}
         <a
-          href="https://www.instagram.com/_shecanfoundation_"
+          href="https://www.instagram.com/shecanfoundation.ngo?igsh=MTE1cmU0aHNxc3Q0OA=="
           target="_blank"
           rel="noopener noreferrer"
           className="
