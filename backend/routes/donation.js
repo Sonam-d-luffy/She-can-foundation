@@ -21,11 +21,11 @@ router.post('/donate', async(req , res) => {
       return res.status(400).json({ message: 'Invalid amount' })
     }
      
-         const upiLink =
-      `upi://pay?pa=${UPI_ID}` +
-      `&pn=${encodeURIComponent(PAYEE)}` +
-      `&am=${amount}` +
-      `&cu=INR`;
+           const upiLink = `upi://pay?pa=${UPI_ID}&pn=${encodeURIComponent(
+      PAYEE
+    )}&am=${amount}&cu=INR&tn=${encodeURIComponent(
+      'SHE'
+    )}`
 
       const qrCode = await QRCode.toDataURL(upiLink)
 
